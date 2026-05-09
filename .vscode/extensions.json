@@ -1,0 +1,7 @@
+{
+  "recommendations": [
+    // Reload
+    // VS Code の再読み込みができる
+    "natqe.reload"
+  ]
+}
