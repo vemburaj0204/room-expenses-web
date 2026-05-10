@@ -9,7 +9,7 @@ const Page: FC = () => {
 
 const handleNavigation = async () => {
   try {
-    const res = await fetch("http://localhost:5152/api/auth");
+    const res = await fetch("http://localhost:5152/api/auth/users");
     const data = await res.text();
     console.log(data);
   } catch (err) {
